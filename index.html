@@ -92,6 +92,7 @@
   /* portfólio */
   .portfolio { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 340px)); gap: 28px; justify-content: center; }
   .video-card { background: #fff; border-radius: 24px; padding: 14px; box-shadow: 0 10px 30px rgba(43, 11, 94, .1); }
+  .video-card img { border-radius: 16px; width: 100%; }
   .video-card video { border-radius: 16px; width: 100%; aspect-ratio: 9/16; object-fit: cover; background: #000; }
   .video-card h3 { margin: 14px 6px 4px; color: var(--roxo-escuro); font-size: 1.1rem; }
   .video-card p { margin: 0 6px 6px; color: #5C5468; font-size: .95rem; }
@@ -131,6 +132,7 @@
     <nav class="nav-links" aria-label="Menu">
       <a href="#servicos">Serviços</a>
       <a href="#antes-depois">Antes e depois</a>
+      <a href="#portfolio">Portfólio</a>
       <a href="#contato">Contato</a>
     </nav>
   </div>
@@ -177,6 +179,22 @@
         <h2>Seu post está assim… ou assim?</h2>
         <p>Um post caprichado faz toda a diferença: mais gente para, curte, comenta e chama você. A gente transforma o seu post em anúncio que vende.</p>
         <a class="btn btn-whats" href="https://wa.me/5544988069045?text=Ol%C3%A1!%20Quero%20transformar%20meus%20posts%20%E2%9A%A1" target="_blank" rel="noopener">Quero o meu “depois”</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="titulo">
+        <small>Portfólio</small>
+        <h2>Alguns trabalhos nossos</h2>
+      </div>
+      <div class="portfolio">
+        <div class="video-card">
+          <img src="assets/portfolio-flores.jpg" alt="Antes e depois: moça triste num banco em dia chuvoso e, depois, recebendo um buquê de flores com o sol aparecendo" loading="lazy" width="768" height="1376">
+          <h3>Antes e depois com flores 💐</h3>
+          <p>Arte para floricultura: do dia cinzento ao momento especial.</p>
+        </div>
       </div>
     </div>
   </section>
